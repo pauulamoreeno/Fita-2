@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> Sign Up </title>
+  <link rel="stylesheet" href="./css/custom.css">
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+          <!-- part mòbil - tablet-->
+          <section class="section register min-vh-100 d-flex flex-column py-4 ">
+            
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 d-flex flex-column align-items-start justify-content-center">
+    
+                  <div class="d-flex justify-content-center py-4 ">
+                    <a href="index.html" class="logo d-flex align-items-start d-none d-md-block w-auto">
+                      <img src="images/logo md.jpg" alt="Logo md" width="125" class="rounded-4">
+                    </a>                  
+                    <a href="index.html" class="logo d-flex align-items-start d-md-none w-auto">
+                      <img src="images/logo sm.jpg" alt="Logo sm" width="95" class="rounded-4">
+                    </a> 
+                  </div><!-- End Logo -->
+                  <h1>Create a new account</h1>       
+                  <!-- añadir form -->
+                  
+                  <article class="card col-12  mt-2 border-0 rounded-4" >
+                    <div class="card-body">
+                      <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-12">
+                            <input type="text" name="name" class="form-control" id="yourName" placeholder="Full name" required>
+                            <div class="invalid-feedback">Please enter your name!</div>
+                        </div>
+
+                        <div class="col-12">
+                          <div class="input-group has-validation">
+                            <input type="text" name="username" class="form-control" id="yourMail" placeholder="Email" required>
+                            <div class="invalid-feedback">Please enter your email.</div>
+                          </div>
+                        </div>
+    
+                        <div class="col-12">
+                          <input type="password" name="password" class="form-control" id="yourPassword" placeholder="Password" required>
+                          <div class="invalid-feedback">Please enter your password!</div>
+                        </div>
+    
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col">
+                    </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-12">
+                          <a href="premium.html" class="btn btn-primary w-100 shadow rounded-4">Register Now</a>
+                          <br>
+                          <br>
+                          <div class="text-center" >
+                            <input type="checkbox" onChange="cambiarCondiciones()" id="condiciones"  name="condiciones" /> By registration, I agree to the  <a href="terms.html" target="_blank" class="enlace-terminos"> Terms of Use & Privacy Policy </a> <br/>
+                          </div>
+                        </div>
+
+                          <div class="or-container">
+                            <br>
+                            <div class="col d-flex align-items-center">
+                              <hr class="flex-grow-1">
+                              <p class="mx-3">Or sign up with</p>
+                              <hr class="flex-grow-1">
+                            </div>
+                            <br>
+                            <div class="card border-light shadow rounded-4 ">
+                              <div class="row">
+                                <div class="col-md-12 text-center">
+                                  <a class="btn btn-lg btn-google btn-block btn-outline " href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fhl%3Des&emr=1&hl=es&ifkv=AVQVeyww8xsT48yIByEQpCSthK3nrvtRGBAWLBpdn85ExWhWWCYL1lKzSn_n88APXWTPn_thZDclxA&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1626532225%3A1698536743766459&theme=glif"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Google</a>
+                                </div>
+                              </div>
+                            </div>  
+                                                
+                            <br>
+                        </div>
+                    </div>
+                  </article>            
+                
+                </div>
+              </div>
+            </div>
+    
+          </section>
+</body>
+
+</html>
